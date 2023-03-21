@@ -1,2 +1,2 @@
 # remind-me
-A simple example of an reminder web app
+A simple example of a reminder web app
