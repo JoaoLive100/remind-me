@@ -32,16 +32,6 @@ CREATE TABLE `tb_cad_reminder` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `tb_cad_reminder`
---
-
-LOCK TABLES `tb_cad_reminder` WRITE;
-/*!40000 ALTER TABLE `tb_cad_reminder` DISABLE KEYS */;
-INSERT INTO `tb_cad_reminder` VALUES (1,'dasdasd','2023-03-09','2023-03-22 10:42:40'),(2,'asdasdas','2023-03-02','2023-03-22 10:47:02'),(3,'asdsadsa','2023-03-07','2023-03-22 10:48:40'),(4,'asdasdsa','2023-03-08','2023-03-22 10:49:39'),(5,'asdsad','2023-03-08','2023-03-22 10:51:14'),(6,'sadasd','2023-03-31','2023-03-22 10:52:00'),(7,'asdasdsa','2023-03-24','2023-03-22 10:54:53'),(8,'sadasdsa','2023-03-29','2023-03-22 10:56:08');
-/*!40000 ALTER TABLE `tb_cad_reminder` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Dumping events for database 'remindme_prd'
 --
 
