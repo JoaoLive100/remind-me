@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <main>
+        <section class="block" id="form-fields">
+            <form id="form" method="POST">
+                <h3>Novo Lembrete</h3>
+                <br>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" class="form-text" placeholder="Nome do Lembrete" required>
+                <br>
+                <label for="date">Data:</label>
+                <input type="date" id="date" class="form-text" placeholder="Data do Lembrete (no formato dd/mm/yyyy)" required>
+                <br>
+                <button class="form-button" id="create-btn">Criar</button>
+            </form>
+        </section>
+        <section id="reminder-list">
+            <h3>Lista de Lembretes</h3>
+            <div>
+                <ul id="main-ul">
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="js/index.js"></script>
+</body>
+</html>
