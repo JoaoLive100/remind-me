@@ -1,7 +1,8 @@
 # remind-me
 A simple example of a reminder web app
 
-##Executar o projeto
+## Executar o projeto
+
 Para executar o projeto você devera estar com o PHP instalado na dua máquina
 
 1. Navegue até o projeto
