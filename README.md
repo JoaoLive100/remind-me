@@ -1,6 +1,8 @@
 # remind-me
 Simples exemplo de um "reminder" Web App
 
+http://144.22.161.115/remind-me/
+
 ## Executar o projeto
 
 Para executar o projeto você deverá estar com o PHP instalado na sua máquina.
